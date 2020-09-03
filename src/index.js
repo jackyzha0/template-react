@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import './index.css'
-import App from './components/App';
+import App from './components/App'
 
 // Render our main app into the 'root' node defined in `index.html`
 ReactDOM.render(
@@ -9,4 +9,4 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
